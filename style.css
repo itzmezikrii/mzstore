@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+.navbar-custom {
+    background-color: transparent;
+    color: #ffffff; 
+}
+
+.navbar-custom .nav-link {
+    font-family: 'Share Tech', sans-serif; 
+    font-size: 18px; 
+    margin-right: 20px; 
+    color: #ffffff; 
+}
+
+.navbar-custom .nav-link:hover {
+    color: rgb(55, 56, 76);
+}
+
+.navbar-custom .navbar-brand {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold; 
+    color: #ffffff; 
+    margin-left: 20px;
+}
+
+.navbar-custom .nav-link.active,
+.navbar-custom .nav-link.disabled {
+    color: #cccccc; 
+}
+
+body {
+    background-image: url('img/home.jpg');
+    background-size: cover;
+}
+
+.home{
+    margin-left: 20px;
+    position: relative;
+    top: 180px;
+}
+
+.home h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: Bold;
+    color: transparent;
+    background: url('img/prpleclr.jpg');
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: cover ;
+    margin-bottom: 20px;
+}
+
+.dynamic-text {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: Bold;
+    color: transparent;
+    background: url('img/2818392.jpg');
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: cover;
+
+}
+
+.zbtn{
+    padding: 5px 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    width: 200px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 16px;
+    transition: all 0.2s ease;
+}
+
+.zbtn:hover{
+    opacity: 50%;
+    box-shadow: 0 0 15px 0.5px rgba(0, 0, 0, 0.836);
+    transition: all 0.2s ease;
+}
